@@ -1,0 +1,70 @@
+.celulares-productos{
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+ 
+.ofertas-productos{
+    flex: 1 1 250px;        
+  max-width: 300px;       
+  border: 1px solid #0e0d0d;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #e0dede;
+}
+
+
+
+.ofertas-productos img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px  
+}
+
+@media (max-width: 370px) {
+  .ofertas-productos {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .descripcion button {
+    width: 100%;
+  }
+}
+
+
+
+.informacion a{
+    color: black;
+    text-transform: uppercase;
+    margin: 20px;
+    background-color: aqua;
+}
+ 
+.formulario{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    gap: 15px;
+    font-weight: bold;
+}
+.formulario p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.formulario h2{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+}

@@ -1,0 +1,50 @@
+.navegacion{
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+
+   
+    }
+
+
+
+.equipos{
+  flex: 1 1 250px;        
+  max-width: 300px;       
+  border: 1px solid #0e0d0d;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #e0dede;
+}
+
+.equipos img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 370px) {
+  .equipos {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .descripcion button {
+    width: 100%;
+  }
+}
+
+
+
+.descripcion h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.descripcion p{
+     font-family: "Open Sans", sans-serif;
+}
