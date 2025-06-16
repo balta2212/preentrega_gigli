@@ -1,5 +1,7 @@
-@import 'header/header';
-@import 'main/main';
-@import  'navegacion/navegacion';
-@import 'productos/productos';
+@use 'base/typography';
+@use 'layout/header';
+@use  'layout/navegation';
+@use 'components/equipos';
+@use  'components/productos';
+@use 'components/formulario';
 

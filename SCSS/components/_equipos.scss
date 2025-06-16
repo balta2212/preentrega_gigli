@@ -1,0 +1,23 @@
+@use "../utils/mixins" as *;
+
+.equipos {
+  @include card(300px);
+  background-color: #e0dede;
+}
+
+.equipos img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 370px) {
+  .equipos {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .descripcion button {
+    width: 100%;
+  }
+}
