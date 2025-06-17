@@ -1,9 +1,9 @@
-@use './base/typography';
-@use './layout/header';
-@use  './layout/navegation';
-@use './components/equipos';
-@use  './components/productos';
-@use './components/formulario';
- 
+@use './base/typography' as*;
+@use './layout/header' as*;
+@use  './layout/navegation' as*;
+@use './components/equipos' as*;
+@use  './components/productos'  as*;
+@use './components/formulario'  as*;
+@use './scss/utils/mixins ' as*; 
 
 
