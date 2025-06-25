@@ -1,16 +1,18 @@
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
+  text-align: center;
 }
 
 h2 {
   font-family: "Open Sans", sans-serif;
   text-decoration: underline;
-  font-size: 10px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .fondo {
-  background-color: rgb(247, 243, 243);
+  background-color: rgb(235, 232, 228);
 }
 
 .logo {
@@ -23,6 +25,22 @@ h2 {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 nav ul {
@@ -55,6 +73,12 @@ a {
 
 .descripcion p {
   font-family: "Open Sans", sans-serif;
+}
+
+main p {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
 }
 
 .equipos {
