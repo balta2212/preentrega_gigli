@@ -89,6 +89,14 @@ main p {
   padding: 10px;
   text-align: center;
   background-color: #e0dede;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s, box-shadow 0.3s;
+  border-radius: 10px;
+}
+.equipos:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .equipos img {
@@ -106,6 +114,10 @@ main p {
     width: 100%;
   }
 }
+.equipos button {
+  background-color: rgb(169, 245, 220);
+}
+
 .celulares-productos {
   display: flex;
   flex-wrap: wrap;
@@ -122,6 +134,14 @@ main p {
   padding: 10px;
   text-align: center;
   background-color: #e0dede;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s, box-shadow 0.3s;
+  border-radius: 10px;
+}
+.ofertas-productos:hover {
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .ofertas-productos img {
@@ -139,6 +159,24 @@ main p {
     width: 100%;
   }
 }
+.ofertas-productos button {
+  background-color: rgb(169, 245, 220);
+}
+
+.ofertas-productos h3 {
+  text-decoration: line-through;
+  font-size: 1rem;
+}
+
+form label {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.ofertas-productos a {
+  text-transform: capitalize;
+}
+
 .formulario {
   display: flex;
   align-items: center;

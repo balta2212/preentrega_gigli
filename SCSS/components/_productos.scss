@@ -6,11 +6,24 @@
   justify-content: center;
   gap: 20px;
   padding: 20px;
+ 
 }
+
+
+
 
 .ofertas-productos {
   @include card(300px);
   background-color: #e0dede;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s, box-shadow 0.3s;
+  border-radius: 10px;
+
+  &:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
 }
 
 .ofertas-productos img {
@@ -28,4 +41,21 @@
   .descripcion button {
     width: 100%;
   }
+}
+.ofertas-productos button{
+background-color: rgb(169, 245, 220);
+
+}
+.ofertas-productos h3{
+  text-decoration: line-through;
+  font-size: 1rem;
+}
+form label{
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.ofertas-productos a{
+  text-transform: capitalize;
+  
 }

@@ -3,7 +3,18 @@
 .equipos {
   @include card(300px);
   background-color: #e0dede;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s, box-shadow 0.3s;
+  border-radius: 10px;
+
+  &:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
 }
+
+
 
 .equipos img {
   width: 100%;
@@ -19,5 +30,10 @@
 
   .descripcion button {
     width: 100%;
+    
   }
 }
+.equipos button{
+  background-color: rgb(169, 245, 220);
+}
+
