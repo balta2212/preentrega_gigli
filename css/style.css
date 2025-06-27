@@ -11,6 +11,19 @@ h2 {
   text-align: center;
 }
 
+.hotsale {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.459);
+  padding: 6px;
+  margin: 15px;
+  border: 2px solid rgb(247, 99, 99);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .fondo {
   background-color: rgb(235, 232, 228);
 }
@@ -81,6 +94,28 @@ main p {
   font-size: 1.5rem;
 }
 
+.presentacion {
+  background-color: rgba(167, 223, 238, 0.4196078431);
+  padding: 6px;
+  margin: 15px;
+  border: 2px solid #7dd7f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.presentacion h1 {
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.presentacion p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .equipos {
   flex: 1 1 250px;
   max-width: 300px;
@@ -122,8 +157,8 @@ main p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 1rem;
+  padding: 5rem;
 }
 
 .ofertas-productos {
@@ -175,6 +210,33 @@ form label {
 
 .ofertas-productos a {
   text-transform: capitalize;
+}
+
+.ofertas-productos h2 {
+  text-transform: capitalize;
+}
+
+.nuevos {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  padding: 0.2;
+  text-transform: capitalize;
+  background-color: violet;
+}
+
+.anuncio {
+  background-color: #d4f1f9;
+  color: #333;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 15px 0;
+  border: 2px solid #7dd7f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .formulario {
