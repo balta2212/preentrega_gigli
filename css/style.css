@@ -29,15 +29,21 @@ h2 {
 }
 
 .logo {
-  width: 200px;
-  height: 150px;
-  padding: 0px;
+  width: 12rem;
+  height: 12rem;
 }
 
 .barra {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+}
+
+a p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(245, 245, 205);
 }
 
 html, body {
@@ -119,11 +125,9 @@ main p {
 .equipos {
   flex: 1 1 250px;
   max-width: 300px;
-  border: 1px solid #0e0d0d;
-  border-radius: 10px;
   padding: 10px;
   text-align: center;
-  background-color: #e0dede;
+  background-color: #eee9e9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s, box-shadow 0.3s;
   border-radius: 10px;
@@ -150,7 +154,7 @@ main p {
   }
 }
 .equipos button {
-  background-color: rgb(169, 245, 220);
+  background-color: rgba(166, 240, 216, 0.315);
 }
 
 .celulares-productos {
@@ -164,11 +168,9 @@ main p {
 .ofertas-productos {
   flex: 1 1 250px;
   max-width: 300px;
-  border: 1px solid #0e0d0d;
-  border-radius: 10px;
   padding: 10px;
   text-align: center;
-  background-color: #e0dede;
+  background-color: #eee9e9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s, box-shadow 0.3s;
   border-radius: 10px;
